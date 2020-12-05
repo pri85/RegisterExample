@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
     private String PASSWORD = "^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d]{8,}$";
     private String NUMBER = "(0/91)?[7-9][0-9]{9}";
     List<Contact> contactList= new ArrayList<>();
-    private String url = "https://api.androidhive.info/contacts/";
+    private String url = "https://api.androidhive.info/contacts/";//new comment added here
     private String TAG = getClass().getSimpleName();
 
     @Override
